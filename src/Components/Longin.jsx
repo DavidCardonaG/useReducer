@@ -1,6 +1,6 @@
 import React, { useContext, useReducer } from 'react'
 import { authReducer, initialState } from '../Reducer/authReducer'
-import {login,logout} from '../actions/authAction'
+import {login} from '../actions/authAction'
 import { UserContext } from './UseContext'
 
 const Longin = () => {
